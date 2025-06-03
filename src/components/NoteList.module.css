@@ -1,0 +1,45 @@
+.noteList {
+    padding: 0.5rem;
+    height: 100vh;
+    overflow-y: auto;
+    background-color: #181818;
+    border-radius: 14px;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(229, 9, 20);
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.noteListItems {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.noteItem {
+    cursor: pointer;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+.noteItem:hover {
+    background-color: #f0f0f058;
+}
+
+.selected {
+    background-color: #72727268;
+    font-weight: bold;
+}
+.addNoteWrapper {
+  display: flex;
+  justify-content: center; 
+  margin-bottom: 1rem;
+}
