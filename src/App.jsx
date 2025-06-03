@@ -25,7 +25,7 @@ function App() {
     if (selectedNote) {
       updateNote({ ...selectedNote, ...noteData });
     } else {
-      addNote(noteData);
+      addNewNote(noteData);
     }
   };
 
